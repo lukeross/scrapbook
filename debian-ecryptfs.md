@@ -5,7 +5,7 @@ semantics it breaks certain daemons such as CUPS.
 
 ## Set-up
 
-```shell
+```sh
 apt-get install ecryptfs-utils
 ecrypt-migrate-home -u username
 ```
@@ -21,7 +21,7 @@ AuthenticationMethods publickey,password
 
 Now make the directory and an `authorized_keys` file for each user:
 
-```shell
+```sh
 mkdir /etc/ssh/authorized_keys
 chmod 0755 /etc/ssh/authorized_keys
 
