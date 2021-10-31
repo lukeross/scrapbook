@@ -6,24 +6,24 @@ to the EXIF). This avoids quality-loss associated with de- and re-compression.
 
 ## Do not rotate
 
-```
+```sh
 exiftool -Orientation -n=1 filename.jpg
 ```
 
 ## Rotate 90 degrees clockwise
 
-```
+```sh
 exiftool -Orientation -n=6 filename.jpg
 ```
 
 ## Rotate 90 degrees anticlockwise
 
-```
+```sh
 exiftool -Orientation -n=8 filename.jpg
 ```
 
 ## Rotate 180 degrees
 
-```
+```sh
 exiftool -Orientation -n=3 filename.jpg
 ```

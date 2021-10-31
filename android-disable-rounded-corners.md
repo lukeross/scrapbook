@@ -6,7 +6,7 @@
 
 - On the PC run:
 
-  ```
+  ```sh
   adb shell settings put secure sysui_rounded_size 1
   adb shell settings put secure sysui_rounded_content_padding 5
   ```
@@ -15,6 +15,7 @@
 
 - Run:
 
-  ```
+  ```sh
   adb shell settings delete secure sysui_rounded_size
   adb shell settings delete secure sysui_rounded_content_padding
+  ```

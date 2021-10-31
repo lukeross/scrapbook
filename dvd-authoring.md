@@ -8,13 +8,13 @@
 
 2. Convert all video files to a DVD compatible format, eg.:
 
-  ```
+  ```console
   $ ffmpeg -i xmas2011.mpg -thread 8 -target pal-dvd xmas2011.vob
   ```
 
 3. Create a config file for dvdauthor, eg. *dvd.xml*: 
 
-  ```
+  ```xml
 <dvdauthor dest="/data/fjo/dvd/out">
     <vmgm>
       <menus>
@@ -35,13 +35,13 @@
 
 4. Launch dvdauthor:
 
-  ```
+  ```console
   $ dvdauthor -x dvd.xml
   ```
 
 5. Check if everything went ok:
 
-  ```
+  ```console
   $ mplayer dvd://1//data/fjo/dvd/out
   ```
 
@@ -49,7 +49,7 @@
 
 7. Burn that beast:
 
-  ```
+  ```console
   $ growisofs -Z /dev/dvd -dvd-compat -dvd-video -V Xmas2011 /data/fjo/dvd/out
   ```
 

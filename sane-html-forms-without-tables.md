@@ -4,14 +4,14 @@ The accepted answer (setting an explicit width in pixels) makes it hard to make
 changes, and breaks when your users use a different font size. Using CSS
 tables, on the other hand, works great:
 
-```
+```css
 form  { display: table;      }
 p     { display: table-row;  }
 label { display: table-cell; }
 input { display: table-cell; }
 ```
 
-```
+```html
 <form>
   <p>
     <label for="a">Short label:</label>
