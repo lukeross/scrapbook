@@ -43,7 +43,7 @@ brittle structure/interfaces.
 
 ## Ask questions
 
-If you're tempted to ask why the author didn't do something the
+If you're tempted to complain that the author didn't do something the
 obvious way, stop and find out why.
 
 Perhaps they didn't know about the obvious way and need you to
