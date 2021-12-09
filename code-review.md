@@ -53,10 +53,6 @@ in this scenario it just didn't work.
 Asking _why_ provides a way for the author to explain their
 approach without the defensiveness that a negative comment creates.
 
-If you'd like to suggest a tweak, then do so but make clear
-that it is just a suggestion that the author may choose to ignore it
-if they don't feel it warrants the change.
-
 ## I'm unhappy with something else!
 
 You're probably being unfair on the author.
@@ -65,7 +61,14 @@ If it's something that is clear-cut wrong that everyone in your workplace
 will agree with, then get it added to your style guide - then everyone
 will know for future.
 
-Otherwise, there's a likelihood you're really expressing
+If you'd like to _suggest_ a tweak (perhaps something the author may not
+have considered or know about), then do so but make clear that it is
+_just a suggestion_ that the author may choose to ignore it if they don't
+feel it warrants the change. And don't be offended if they choose to
+ignore your suggestion because they prefer their approach. It is their
+code after all.
+
+If neither of the above works, there's a likelihood you're really expressing
 "that's not how _I_ would have done it". That's because you're not the author
 and if you feel so strongly and are unable to let go, perhaps you should
 _be_ the author? Every author is different and it's only fair to allow
