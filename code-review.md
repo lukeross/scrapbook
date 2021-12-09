@@ -13,8 +13,8 @@ functionality?
 ### Style and standards
 
 Does the code style meet your workplace's _published_ code style guide?
-Does the code meet the expected style for the programming language?
-Does the code tick the standards for aspects such as test coverage?
+Does the code meet the (documented) expected style for the programming language?
+Does the code tick the workplace standards for aspects such as test coverage?
 In existing codebases, does the style broadly follow the rest of the codebase
 without being too jarring?
 
@@ -53,6 +53,10 @@ in this scenario it just didn't work.
 Asking _why_ provides a way for the author to explain their
 approach without the defensiveness that a negative comment creates.
 
+If you'd like to suggest a tweak, then do so but make clear
+that it is just a suggestion that the author may choose to ignore it
+if they don't feel it warrants the change.
+
 ## I'm unhappy with something else!
 
 You're probably being unfair on the author.
@@ -62,7 +66,8 @@ will agree with, then get it added to your style guide - then everyone
 will know for future.
 
 Otherwise, there's a likelihood you're really expressing
-"that's now how _I_ would have done it". That's because you're not the author
+"that's not how _I_ would have done it". That's because you're not the author
 and if you feel so strongly and are unable to let go, perhaps you should
 _be_ the author? Every author is different and it's only fair to allow
-them the same freedom and creativity that you would expect.
+them the same freedom and creativity that you would expect. If you can't
+point to one of the above then perhaps it's not _objectively_ wrong at all.
