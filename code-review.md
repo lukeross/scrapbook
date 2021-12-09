@@ -20,7 +20,8 @@ without being too jarring?
 
 ### Security
 
-Does the new code introduce or exacerbate security holes?
+Does the new code introduce or exacerbate security holes? Are there
+regulatory requirements that apply?
 
 ### Performance
 
