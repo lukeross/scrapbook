@@ -7,15 +7,16 @@ When reviewing code, some aspects worth considering and commenting-on.
 ### Functionality
 
 Does the code provide the required functionality? Is it sufficiently
-robust, with appropriate error-handling?
+robust, with appropriate error-handling? Does it break any existing
+functionality?
 
-### Style
+### Style and standards
 
 Does the code style meet your workplace's _published_ code style guide?
 Does the code meet the expected style for the programming language?
+Does the code tick the standards for aspects such as test coverage?
 In existing codebases, does the style broadly follow the rest of the codebase
-without being too jarring? Excessively repetitive code also falls under
-this heading.
+without being too jarring?
 
 ### Security
 
@@ -28,12 +29,16 @@ If it is, are the aspects of the code that are sub-optimal?
 If not, are there any really inefficient things which could be fixed
 without harming readability?
 
-### Readability
+### Readability and maintainability
 
 Will the next developer, who might be junior, be able to understand
 what's going on? If not, would some comments help, or could the code
 be structured differently? Sometimes even better-chosen function or
 variable names can make all the difference.
+
+Consider aspects that will make it harder to look after the code,
+such as large chunks of copy-pasted code, or code with unusually
+brittle structure/interfaces.
 
 ## Ask questions
 
