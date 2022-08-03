@@ -55,4 +55,7 @@ Possible (totally untested) ideas for more focused retrospectives.
 
 - Try to decide on one or two actions to improve the lowest-scoring question,
   perhaps through pairing, distributing work differently or allowing refactor
-  time for problem areas.
+  time for problem areas. Ideally they should be ideas which either are fed
+  into sprint-planning, or else are jointly owned by the team. Occasionally
+  they may be "assigned" to one team member, but should be the exception
+  rather than the rule.
