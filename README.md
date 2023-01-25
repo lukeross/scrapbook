@@ -1,3 +1,3 @@
 # scrapbook
 
-Documentation I want to keep for future
+Documentation I want to keep for future; it's fairly eccentric
